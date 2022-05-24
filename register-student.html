@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/registerPageCSS/registerPage.css">
+    <link rel="stylesheet" href="css/registerPageCSS/registerPagemedia.css">
+
+
+    <title>REGISTER - STUDENT</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img src="/90DEGREE/img/90degreelogo.png" alt="" class="ownerLogoImage">
+        </nav>
+    </header>
+
+
+    <main>
+        <form action="/90DEGREE/backend/registerActivities/regsiterStudent.php" method="post" class="register-form">
+
+            <div class="formPart-containers" id="form-part01">
+
+                <label class="descriptor-label01">REGISTER</label>
+
+                <div class="formScollBox">
+
+                    <input type="text" name="input-registerFullName" id="input-registerFullName" class="inputFields" placeholder="Your full name">
+
+                    <input type="text" name="input-registerPhoneNumber" id="input-registerPhoneNumber" class="inputFields" placeholder="Enter your Phone Number">
+
+                    <input type="email" name="input-registerEmailAddress" id="input-registerEmailAddress" class="inputFields" placeholder="Enter your email address">
+
+                    <p class="formParas">Date of Birth</p>
+                    <input type="date" name="input-registerDob" id="input-registerDob" class="inputFields">
+
+                    <p class="formParas">Gender</p>
+                    <select name="input-registerGender" id="input-registerGender" class="inputFields">
+                        <option selected disabled>Select your gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="custom">Custom</option>
+                    </select>
+
+                    <p class="formParas">Registering for class?</p>
+                    <select name="input-registerClass" id="input-registerClass" class="inputFields">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    
+                    <p class="formParas">Registering for board?</p>
+                    <select name="input-registerBoardName" id="input-registerBoardName" class="inputFields">
+                        <option value="ICSE">ICSE</option>
+                        <option value="CBSE">CBSE</option>
+                        <option value="STATE">STATE</option>
+                    </select>
+
+
+                    <input type="text" name="input-registerParentName" id="input-registerParentName" class="inputFields" placeholder="Enter your Parent's Name">
+
+                    <input type="text" name="input-registerParentPhone" id="input-registerParentPhone" class="inputFields" placeholder="Enter your Parent's Phone Number">
+
+                    <input type="password" name="input-registerPassword" id="input-registerPassword" class="inputFields" placeholder="Enter your password ">
+
+                    <input type="password" name="input-registerPassword" id="input-registerPassword" class="inputFields" placeholder="Confirm your password ">
+
+
+                    <button class="inputButtons" type="reset">RESET</button>
+                    <button class="inputButtons" type="submit">SUBMIT</button>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+        </form>
+    </main>
+
+    <footer>
+        <p class="footer-para">&copy; 2022 90 DEGREE</p>
+    </footer>
+    
+</body>
+</html>
