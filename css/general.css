@@ -1,0 +1,43 @@
+*{margin: 0;padding: 0;}
+
+
+
+nav{
+    height: 100px;
+    background-color: #062671;
+    display: flex;
+}
+
+.ownerLogoImage{
+    height: 100px;
+    margin-left: 0px;
+}
+.ownerLogoImageafter{
+    height: 100px;
+    margin-right: 0px;
+}
+
+.menuImage{
+    height: 40px;
+    margin: auto;
+    margin-left: 20px;
+}
+.menuImage:active{height: 39px;}
+
+.ownerName-para{
+    font-family: 'Acme';
+    margin: auto;
+    font-size: 50px;
+    color: aliceblue;
+}
+footer{
+    height: 100px;
+    background-color:  #062671;
+    display: flex;
+}
+.footer-para{
+    font-size: 25px;
+    margin: auto;
+    font-family: 'Acme';
+    color: aliceblue;
+}

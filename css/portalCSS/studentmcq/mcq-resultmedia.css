@@ -1,0 +1,41 @@
+@media screen and (max-width:1026px){
+    .testBox{min-width: 520px;}
+    #container03{width: 520px;}
+    .answerType-tabs{width: 160px;column-gap: 10px;}
+
+}
+
+
+@media screen and (max-width:558px){
+    main{background-size: contain;}
+    .answerType-para{font-size: 18px;}
+    .round{height: 30px;width: 30px;}
+    .answerType-tabs{height: 40px;width: 120px;}
+    #container02{column-gap: 10px;height: 60px;}
+
+    .questNumber{height: 70px;width: 70px;}
+    .questSign{height: 70px;width: 70px;}
+    .questInfo{height: 70px;width: 230px;}
+    .answerBox{min-height: 70px;width: 370px;}
+
+    .questNumber-para{font-size: 30px;}
+    .questSign-image{height: 40px;width: 40px;}
+
+    .testBox{min-width: 380px;}
+    #container03{width: 380px;}
+}
+
+@media screen and (max-width:396px){
+    .answerType-para{font-size: 14px;}
+    .answerType-tabs{width: 92px;height: 36px;}
+    .round {height: 25px;width: 25px;}
+
+    .questInfo-para{font-size: 15px;}
+    .questNumber, .questSign{height: 60px;width: 60px;}
+    .questInfo {height: 60px;width: 190px;}
+    .answerBox {min-height: 60px;width: 310px;}
+    .testBox{min-width: 320px;}
+    #container03{width: 320px;}
+    #descriptorHeader01{font-size: 40px;}
+    .descriptorPara{font-size: 20px;}
+}

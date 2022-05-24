@@ -1,0 +1,15 @@
+main{
+    background-image: url('/img/waveshortpurple.png');
+}
+
+#descriptorHeader01{
+    background: -webkit-linear-gradient(#ED5EDD, #573391);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.active{
+    background-image: linear-gradient(to bottom right, #ED5EDD, #573391);box-shadow: 0 0 10px #573391;
+}
+.submitBtn{
+    background-image: linear-gradient(to bottom right, #ED5EDD, #573391);
+}

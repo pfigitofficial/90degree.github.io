@@ -1,0 +1,175 @@
+.progressContainer{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 40px 0;
+}
+
+.subjectContainer{
+    height: auto;
+    width: 1000px;
+    border-radius: 12px;
+    margin: 0 auto 20px auto;
+}
+
+.headerContainer{
+    height: auto;
+    width: auto;
+    display: flex;
+}
+.subjHeaders{
+    font-family: 'Source Sans Pro';
+    font-size: 50px;
+    margin: auto auto auto 10px;
+}
+.infoContainer{
+    height: auto;
+    width: auto;
+    display: flex;
+    border-radius: 10px;
+}
+
+.barContainer{
+    height: auto;width: auto;
+    margin: 10px 10px auto 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#barContainer02{
+    width: auto;
+}
+
+.progressBar{
+    height: 45px;width: 350px;
+    border-radius: 4px;
+    margin: 0 0 10px 0;
+    background-color: #fff;
+}
+.progressDone{
+    height: 45px;width: 30%;
+    border-radius: 4px;
+    background-color: blue;
+}
+.progressInfo{
+    height: 45px;width: 85px;
+    border-radius: 4px;
+    margin: 0 0 10px 0;
+    display: flex;
+}
+.progressDesc{
+    height: 45px;width: 505px;
+    margin: 0 0 10px 0;
+    display: flex;
+}
+.pregressDesc-para{
+    font-family: 'Source Sans Pro';
+    font-size: 25px;
+    color: black;
+    margin: auto 0 auto 0;
+}
+.infoContainer-anchors{
+    color: black; text-decoration: none;
+}
+
+.eng-infoContainer{box-shadow: 2px 2px 10px #FF5F00;}
+.hin-infoContainer{box-shadow: 2px 2px 10px #B20600;}
+.maths-infoContainer{box-shadow: 2px 2px 10px blue;}
+.histciv-infoContainer{box-shadow: 2px 2px 10px #3E7C17;}
+.geog-infoContainer{box-shadow: 2px 2px 10px #40DFEF;}
+.comp-infoContainer{box-shadow: 2px 2px 10px #F10086;}
+.phy-infoContainer{box-shadow: 2px 2px 10px #F10086;}
+.chem-infoContainer{box-shadow: 2px 2px 10px #019267;}
+.bio-infoContainer{box-shadow: 2px 2px 10px #035397;}
+.sanskrit-infoContainer{box-shadow: 2px 2px 10px #FFB72B;}
+.artedu-infoContainer{box-shadow: 2px 2px 10px #573391;}
+.pe-infoContainer{box-shadow: 2px 2px 10px #40DFEF;}
+
+.subjHeaders-english{
+    background: -webkit-linear-gradient(orange, #FF5F00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subjHeaders-hindi{
+    background: -webkit-linear-gradient(#B20600, #F24A72);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subjHeaders-maths{
+    background: -webkit-linear-gradient(#035397, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subjHeaders-histciv{
+    background: -webkit-linear-gradient(#519259, #3E7C17);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subjHeaders-geog{
+    background: -webkit-linear-gradient(#035397, #40DFEF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subjHeaders-comp{
+    background: -webkit-linear-gradient(#F10086, #FFBED8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subjHeaders-phy{
+    background: -webkit-linear-gradient(#FFF56D, #F10086);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subjHeaders-chem{
+    background: -webkit-linear-gradient(#019267, #B6FFCE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subjHeaders-bio{
+    background: -webkit-linear-gradient(#40DFEF, #035397);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subjHeaders-sanskrit{
+    background: -webkit-linear-gradient(#EBD671, #FFB72B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subjHeaders-artedu{
+    background: -webkit-linear-gradient(#ED5EDD, #573391);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subjHeaders-pe{
+    background: -webkit-linear-gradient(#93FFD8, #40DFEF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.progressBar-english{background-color: #FF5F00;}
+.progressBar-hindi{background-color: #B20600;}
+.progressBar-maths{background-color: blue;}
+.progressBar-histciv{background-color: #519259;}
+.progressBar-geog{background-color: #40DFEF;}
+.progressBar-comp{background-color: #FFBED8;}
+.progressBar-phy{background-color: #F10086;}
+.progressBar-chem{background-color: #B6FFCE;}
+.progressBar-bio{background-color: #035397;}
+.progressBar-sanskrit{background-color: #FFB72B;}
+.progressBar-artedu{background-color: #573391;}
+.progressBar-pe{background-color: #93FFD8;}
+
+.progressDone-english{background-color: orange;}
+.progressDone-hindi{background-color: #F24A72;}
+.progressDone-maths{background-color: #035397;}
+.progressDone-histciv{background-color: #3E7C17;}
+.progressDone-geog{background-color: #035397;}
+.progressDone-comp{background-color: #F10086;}
+.progressDone-phy{background-color: #FFF56D;}
+.progressDone-chem{background-color: #019267;}
+.progressDone-bio{background-color: #40DFEF;}
+.progressDone-sanskrit{background-color: #EBD671;}
+.progressDone-artedu{background-color: #ED5EDD;}
+.progressDone-pe{background-color: #40DFEF;}
+

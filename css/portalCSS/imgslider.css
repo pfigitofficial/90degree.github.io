@@ -1,0 +1,49 @@
+.container2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: unset;
+    justify-content: center;
+}
+
+.slider{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+#sliderFrame{
+    height: 500px;
+    width: 1440px;
+    display: flex;
+    transition: 0.8s;
+    margin: auto;
+}
+.newsImage{min-height: 500px;min-width: 1440px;margin: auto;}
+
+.newsImage-mob{display: none;}
+
+.indicators{
+    height: 25px;
+    width: auto;
+    position: absolute;
+    margin-top: 450px;
+    cursor: pointer;
+}
+
+span{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: gainsboro;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+
+.active{
+    background-color: grey !important;
+}

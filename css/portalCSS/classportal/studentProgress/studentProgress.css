@@ -1,0 +1,303 @@
+main {height: auto;margin-bottom: 100px;}
+
+.container01 {
+    height: 120px;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerCard {
+    height: 70px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 12px;
+    font-family: 'Source Sans Pro';
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoverBox {
+    height: 200px;
+    width: 300px;
+    background-color: azure;
+    border-radius: 12px;
+    display: none;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.containerCard:hover .hoverBox {
+    display: flex;
+}
+
+form {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.chekerMenu {
+    min-height: 50px;
+    width: 300px;
+    display: flex;
+    font-size: 25px;
+    font-family: 'Source Sans Pro';
+    align-items: center;
+}
+
+.inputChecks {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+/* drop down css */
+
+.dropbtn {
+    height: 70px;
+    width: 300px;
+    color: black;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    background-color: white;
+    font-family: 'Source Sans Pro';
+    overflow-y: scroll;
+    box-shadow: 2px 2px 10px grey;
+    border-radius: 8px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    border: 1px solid black;
+}
+
+.container02{
+    height: 90px;width: auto;
+    display: flex;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    column-gap: 5px;
+}
+
+
+/* COntainer02 */
+
+.selectionTab{
+    height: 80px;width: 200px;
+    background-color: honeydew;
+    border-radius: 12px;
+    color: black;
+    box-shadow: 2px 2px 10px gray;
+    font-size: 25px;
+    font-family: 'Source Sans Pro';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.activeSelection{background-color: navy;color: white;}
+
+.tagContainer{
+    height: 60px;width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag{
+    height: 55px;width: auto;
+    padding-left: 10px;padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Source Sans Pro';
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+.tagInput{width: 120px;outline: none;border: none;}
+.headerBox{
+    height: 40px;width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Source Sans Pro';
+}
+.subTabBox{
+    height: 40px;width: 100%;
+    display: flex;
+}
+.subTab{
+    height: 100%;width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-family: 'Source Sans Pro';
+}
+.detailContainer{
+    height: auto;width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.studentContainers{
+    height: auto;width: 200px;
+    border-radius: 12px;
+    display: block;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.nameBox, .markBox, .puncBox{
+    height: 50px;width: 100%;
+    font-size: 17px;
+    font-family: 'Source Sans Pro';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subPuncBox{
+    height: 100%;width: 100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.studentTable{
+    height: 300px;width: 620px;
+    margin: auto;
+    overflow-x: scroll;
+}
+
+
+.studentTableHead-Container{
+    height: 50px;width: auto;
+    display: flex;
+}
+
+.studentTableHead{
+    height: 40px;min-width: 120px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px grey;
+    margin: auto 10px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro';
+}
+.studentTableCell-Container{
+    height: auto;width: auto;
+    display: flex;
+}
+.detailStrip{
+    height: 30px;width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+}
+
+.studentTableCell{
+    height: auto;min-width: 120px;
+    border-radius: 6px;
+    margin: auto 10px auto 0;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.activeTableHead{background-color: navy;color: white;}
+
+@media screen and (max-width:628px) {
+    .dropbtn{width: 170px;}
+    .selectionTab{width: 110px;font-size: 15px;height: 50px;}
+    .container02{height: 70px;}
+    .headerBox{font-size: 15px;}
+    .subTab{font-size: 10px;}
+    .tag{font-size: 15px;height: 25px;}
+    .tagInput{width: 40px;}
+    .studentContainers{width: 111px;}
+    .nameBox, .markBox, .puncBox{font-size: 10px;height: 30px;}
+}
+
+@media screen and (max-width:630px) {
+    .studentTable{width: 270px;}
+    .studentTableHead, .studentTableCell{min-width: 100px;}
+}
+
+
+@media screen and (max-width:384px) {
+    .dropbtn{width: 170px;font-size: 15px;}
+    .selectionTab{width: 110px;font-size: 15px;height: 50px;}
+    .container02{height: 70px;}
+    .headerBox{font-size: 15px;}
+    .subTab{font-size: 10px;}
+    .tag{font-size: 15px;height: 25px;}
+    .tagInput{width: 40px;}
+    .studentContainers{width: 111px;}
+    .nameBox, .markBox, .puncBox{font-size: 10px;height: 30px;}
+}
+
+@media screen and (max-width:356px){
+    .selectionTab{width: 80px;height: 40px;border-radius: 6px;font-size: 12px;text-align: center;}
+    .tag{font-size: 13px;}
+    .dropbtn{width: 110px;height: 40px;}
+    .container01{height: 70px;}
+    .studentContainers{width: 80px;}
+    .container02{height: auto;}
+    .tagContainer{height: 35px;}
+    .detailContainer{margin-top: 5px;column-gap: 2px;}
+}

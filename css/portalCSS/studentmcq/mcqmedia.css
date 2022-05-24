@@ -1,0 +1,65 @@
+@media screen and (max-width:1440px) {
+    main{background-size: contain;}
+}
+
+@media screen and (max-width:1315px) {
+    #container02{width: 880px;}
+    
+}
+
+@media screen and (max-width:1012px) {
+    .testContainer{width: 790px;}
+    .testBox{min-width: 790px;}
+}
+
+@media screen and (max-width:900px) {
+    #container02{width: 600px;}
+    .descriptorPara{font-size: 25px;}
+}
+
+@media screen and (max-width:808px) {
+    .testContainer{width: 510px;}
+    .testBox{min-width: 510px;}
+    .optionBox{width: 410px;height: 50px;}
+    .optionDescriptor-para{font-size: 25px;}
+    .questionHeaders{max-width: 410px;font-size: 25px;}
+}
+
+@media screen and (max-width:750px){
+    .infoImage{height: 110px;width: 110px;}
+    .infoImageContainer{margin-top: 40px;}
+}
+
+@media screen and (max-width:672px) {
+    #container02{display: flex;overflow-x: scroll;  width: 600px;margin: auto;}
+    .tab{margin: auto;min-width: 80px;}
+}
+
+@media screen and (max-width:611px) {
+    #descriptorHeader01 {font-size: 45px;}
+    #container02{width: 300px;}
+    #descriptorHeader01{font-size: 40px;}
+    #descriptorPara01{font-size: 20px;margin: 0px;}
+    .tab{margin-left: 10px;}
+    .infoContainerImage{height: 100px;width: 100px;}
+    #infoContainer01{margin-left: 30px;}
+    .infoImageContainer{right: 20px;}
+    .infoImage{height: 70px;width: 70px;}
+}
+
+
+@media screen and (max-width:522px) {
+    .testContainer{width: 300px;}
+    .testBox{min-width: 300px;}
+    .optionBox{width: 260px;height: 50px;}
+    .optionDescriptor-para{font-size: 20px;}
+    .questionHeaders{max-width: 260px;font-size: 20px;}
+}
+
+
+@media screen and (max-width:312px){
+    /* .infoImageContainer{margin-top: 70px;} */
+    #infoContainer01{line-height: 30px;width: 130px;}
+    #descriptorHeader01{font-size: 36px;margin: 0;}
+
+}

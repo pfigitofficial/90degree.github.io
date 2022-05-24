@@ -1,0 +1,29 @@
+@media screen and (max-width:1019px){
+    .progressDesc{width: 315px;}
+    .subjectContainer{width: 810px;}
+}
+
+@media screen and (max-width:833px){
+    .progressDesc{width: 315px;}
+    .subjectContainer{width: 660px;}
+    .progressBar{width: 200px;height: 35px;}
+    .progressDone, .progressInfo, .progressDesc{height: 35px;}
+    .pregressDesc-para{font-size: 20px;}
+}
+
+@media screen and (max-width:671px){
+    .progressDesc{width: auto;}
+    .subjectContainer{width: auto;}
+    .progressInfo{width: 65px;}
+    .barContainer{margin: auto 0px auto 5px;}
+    .subjHeaders{font-size: 40px;}
+}
+
+@media screen and (max-width:443px){
+    .progressBar{height: 20px;width: 130px;}
+    .barContainer{margin: auto 0px auto 5px;}
+    .progressDone, .progressInfo, .progressDesc{height: 20px;}
+    .pregressDesc-para{font-size: 15px;}
+    .progressInfo{width: 40px;}
+    .subjHeaders{font-size: 30px;}
+}

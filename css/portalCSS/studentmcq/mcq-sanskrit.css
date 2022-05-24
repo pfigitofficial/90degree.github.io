@@ -1,0 +1,39 @@
+main{
+    background-image: url('/img/waveshortyellow.png');
+}
+
+#descriptorHeader01{
+    background: -webkit-linear-gradient(#EBD671, #FFB72B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.active{
+    background-image: linear-gradient(to bottom right, #EBD671, #FFB72B);box-shadow: 0 0 10px #FFB72B;
+}
+.submitBtn{
+    background-image: linear-gradient(to bottom right, #EBD671, #FFB72B);
+}
+
+.custom-radioBtn{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #FFB72B;
+    border-radius: 50px;
+    margin: auto 0 auto 0;
+    background-color: transparent;
+}
+.checkMark{
+    height: 24px;width: 24px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, #EBD671, #FFB72B);
+    border-image-slice: 1;
+    display: none;
+}
+.inputCheckers{display: none;}
+
+.inputCheckers:checked + .checkMark{
+    display: inline-block;
+}

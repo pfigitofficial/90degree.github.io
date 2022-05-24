@@ -1,0 +1,125 @@
+main{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formScollBox{
+    overflow-y: scroll;
+}
+
+.register-form{
+    height: auto;
+    width: auto;
+    margin: auto;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.formPart-containers{
+    height: 700px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+
+.imgHolder{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+.descriptor-label01{
+    font-family: 'Source Sans pro';
+    font-size: 70px;
+    /* margin: auto; */
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.inputFields{
+    height: 60px;
+    width: 600px;
+    font-size: 30px;
+    border-radius: 60px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 0%;
+    background: transparent;
+    border: 1px solid #062671;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    outline: none;
+}
+
+.LoginPage-anchor{
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    text-decoration: none;
+    color: black;
+}
+
+.inputButtons{
+    border-radius: 50px;
+    height: 60px;width: 602px;
+    background-image: linear-gradient(to bottom right, #035397, #143F6B);
+    border: none;
+    color: white;
+    font-size: 30px;
+    margin: auto;
+    font-family: 'Source Sans Pro';
+}
+.selections-container{
+    height: auto;
+    width: auto;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+}
+
+.loginPage-anchors{
+    text-decoration: none;
+    color: black;
+}
+
+.card{
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover{box-shadow: 2px 2px 15px #062671;}
+.cardImages{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 0;
+    display: flex;
+}
+
+.cardLabels{
+    font-size: 18px;
+    font-family: 'Source Sans Pro';
+    margin: auto;
+    margin-top: 0;
+    text-align: center;
+}
+.formParas{
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+}

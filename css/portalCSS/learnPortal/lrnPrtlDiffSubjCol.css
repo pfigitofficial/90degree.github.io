@@ -1,0 +1,66 @@
+.main-eng{background-image: url('/90DEGREE/img/waveshortorange.png');}
+.main-hin{background-image: url('/90DEGREE/img/waveshortred.png');}
+.main-math{background-image: url('/90DEGREE/img/waveshortblue.png');}
+.main-histciv{background-image: url('/90DEGREE/img/waveshortgreen.png');}
+.main-geog{background-image: url('/90DEGREE/img/waveshortblue.png');}
+.main-comp{background-image: url('/90DEGREE/img/waveshortpink.png');}
+.main-phy{background-image: url('/90DEGREE/img/waveshortgreen.png');}
+.main-chem{background-image: url('/90DEGREE/img/waveshortgreen.png');}
+.main-bio{background-image: url('/90DEGREE/img/waveshortblue.png');}
+.main-sanskrit{background-image: url('/90DEGREE/img/waveshortyellow.png');}
+.main-artedu{background-image: url('/90DEGREE/img/waveshortpurple.png');}
+.main-pe{background-image: url('/90DEGREE/img/waveshortblue.png');}
+
+.utilityBox-eng{background: linear-gradient(to bottom right, #ffe4c0, #ffd59e);box-shadow: 0 0 5px #ffd59e;}
+.utilityBox-hin{background: linear-gradient(to bottom right, #ff6b6b, #ffa8a8);box-shadow: 0 0 5px #ff6b6b;}
+.utilityBox-math{background: linear-gradient(to bottom right, #7fb4ff, #7fb5ff);box-shadow: 0 0 5px #7fb4ff;}
+.utilityBox-histciv{background: linear-gradient(to bottom right, #83bd75, #b4e197);box-shadow: 0 0 5px #83bd75;}
+.utilityBox-geog{background: linear-gradient(to bottom right, #40DFEF, #7fb4ff);box-shadow: 0 0 5px #7fb4ff;}
+.utilityBox-comp{background: linear-gradient(to bottom right, #ff81a6, #ffbedc);box-shadow: 0 0 5px #ff81a6;}
+.utilityBox-phy{background: linear-gradient(to bottom right, #ff90ce, #ffc16d);box-shadow: 0 0 5px #ff90ce;}
+.utilityBox-chem{background: linear-gradient(to bottom right, #83bd75, #B6FFCE);box-shadow: 0 0 5px #83bd75;}
+.utilityBox-bio{background: linear-gradient(to bottom right, #7fb5ff, #6dfff2);box-shadow: 0 0 5px #7fb4ff;}
+.utilityBox-sanskrit{background: linear-gradient(to bottom right, #EBD671, #FFB72B);box-shadow: 0 0 5px #FFB72B;}
+.utilityBox-artedu{background: linear-gradient(to bottom right, #9900f0, #ffadf0);box-shadow: 0 0 5px #9900f0;}
+.utilityBox-pe{background: linear-gradient(to bottom right, #93FFD8, #40DFEF);box-shadow: 0 0 5px #40DFEF;}
+
+
+.tab-eng{background-color: #fed8b1;}
+.tab-hin{background-color: #ff6b6b;}
+.tab-math{background-color: #7fb4ff;}
+.tab-histciv{background-color: #b4e197;}
+.tab-geog{background-color: #7fb4ff;}
+.tab-comp{background-color: #ff81a6;}
+.tab-phy{background-color: #ff90ce;}
+.tab-chem{background-color: #83bd75;}
+.tab-bio{background-color: #7fb4ff;}
+.tab-sanskrit{background-color: #EBD671;}
+.tab-artedu{background-color: #ffadf0;}
+.tab-pe{background-color: #40DFEF;}
+
+.custom-eng{color: #FF5F00;}
+.custom-hin{color: #ff6b6b;}
+.custom-math{color: #7fb4ff;}
+.custom-histciv{color: #b4e197;}
+.custom-geog{color: #7fb4ff;}
+.custom-comp{color: #ff81a6;}
+.custom-phy{color: #ff90ce;}
+.custom-chem{color: #83bd75;}
+.custom-bio{color: #7fb4ff;}
+.custom-sanskrit{color: #EBD671;}
+.custom-artedu{color: #ffadf0;}
+.custom-pe{color: #40DFEF;}
+
+
+.h1-eng{background: -webkit-linear-gradient(orange, #FF5F00);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.h1-hin{background: -webkit-linear-gradient(#ff6b6b, #ffa8a8);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.h1-math{background: -webkit-linear-gradient(#7fb4ff, #7fb5ff);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.h1-histciv{background: -webkit-linear-gradient(#83bd75, #b4e197);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.h1-geog{background: -webkit-linear-gradient(#40DFEF, #7fb4ff);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.h1-comp{background: -webkit-linear-gradient(#ff81a6, #ffbedc);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.h1-phy{background: -webkit-linear-gradient(#ff90ce, #ffc16d);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.h1-chem{background: -webkit-linear-gradient(#83bd75, #B6FFCE);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.h1-bio{background: -webkit-linear-gradient(#7fb4ff, #6dfff2);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.h1-sanskrit{background: -webkit-linear-gradient(#EBD671, #FFB72B);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.h1-artedu{background: -webkit-linear-gradient(#9900f0, #ffadf0);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.h1-pe{background: -webkit-linear-gradient(#93FFD8, #40DFEF);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}

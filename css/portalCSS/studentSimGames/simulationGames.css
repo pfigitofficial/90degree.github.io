@@ -1,0 +1,44 @@
+main{
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.selectorContainer{
+    height: 100px; width: 500px;
+    margin: auto;
+    display: flex;
+}
+
+.navButtons{
+    height: 70px;
+    width: 220px;
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 20px;
+    color: black;
+    border: none;
+    font-size: 30px;
+    font-family: 'Source Sans Pro';
+}
+.active{
+    border-bottom: 5px solid black;
+    border-top: none;
+    border-left: none;border-right: none;
+    font-size: 25px;
+}
+
+
+
+/* Media Queries */
+@media screen and (max-width:512px) {
+    .selectorContainer{
+        display:grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+        width: auto;
+    }
+    .navButtons{margin: 0;font-size: 15px;width: 120px;}
+}

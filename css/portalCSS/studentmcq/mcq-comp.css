@@ -1,0 +1,37 @@
+main{
+    background-image: url('/img/waveshortpink.png');
+}
+
+#descriptorHeader01{
+    color: #F10086;
+}
+.active{
+    background-image: linear-gradient(to bottom right, #F10086, #FFBED8);box-shadow: 0 0 10px #F10086;
+}
+.submitBtn{
+    background-color: #F10086;
+}
+
+.custom-radioBtn{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #F10086;
+    border-radius: 50px;
+    margin: auto 0 auto 0;
+    background-color: transparent;
+}
+.checkMark{
+    height: 24px;width: 24px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, #F10086, #FFBED8);
+    border-image-slice: 1;
+    display: none;
+}
+.inputCheckers{display: none;}
+
+.inputCheckers:checked + .checkMark{
+    display: inline-block;
+}

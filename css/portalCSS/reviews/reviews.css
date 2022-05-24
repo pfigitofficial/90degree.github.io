@@ -1,0 +1,178 @@
+main{
+    height: 2000px;
+}
+
+.searBoxContainer{
+    height: 150px;width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewHeader{
+    font-size: 40px;
+    font-family: 'Source Sans Pro';
+    margin: auto;
+    padding-left: 20px;
+}
+form{height: auto;display: flex;}
+
+.inputFields{
+    height: 50px;width: 80%;
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    padding-left: 10px;
+    background-color: lightgrey;
+    border: none;outline: none;
+}
+
+.reviewBox{
+    height: 400px;width: 800px;
+    margin: 10px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.profileContainer{
+    height: 150px;width: 100%;
+    display: flex;
+}
+.starContainer{
+    height: 50px;width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.tagsContainer{
+    height: 50px;width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.likesContainer{
+    height: 100px;width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnContainer{
+    height: 50px;width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.photoBox{
+    height: 120px;width: 120px;
+    margin: auto 0 auto auto;
+}
+.infoBox{
+    height: 120px; width: 300px;
+    margin: auto 0 auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.followBox{
+    height: 50px;width: 100px;
+    margin: auto auto auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photoBox-img{
+    height: 120px;width: 120px;
+    border-radius: 50%;
+}
+.reviewHeaders{
+    font-size: 30px;
+    font-family: 'Source Sans Pro';
+    padding-left: 20px;
+    
+}
+.reviewParas{
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    padding-left: 20px;
+}
+.btnParas{padding: 0;}
+form{display: flex;}
+
+.followBtn{
+    height: 40px;width: 80px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black;
+    background: transparent;
+    font-size: 18px;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+}
+.followBtn:hover{border-color: lightcoral;color: lightcoral;}
+
+.starBox{
+    height: 40px;width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.starPara{font-size: 40px;}
+.figureBox{
+    height: 40px;width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tagPara{
+    border: 1px solid black;
+    width: fit-content;
+    border-radius: 12px;
+    padding: 0 5px 0 5px;
+}
+.btnBox{
+    height: 40px;width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BtnImg{
+    height: 30px;width: 30px;
+}
+
+hr{width: 80%;opacity: 30%;margin: 0 auto 0 auto;}
+
+
+
+@media screen and (max-width:804px){
+    .reviewBox{width: 530px;}
+    .searBoxContainer{width: 530px;}
+}
+@media screen and (max-width:536px){
+    .reviewBox{width: 380px;}
+    .reviewHeaders{line-height: 19px;}
+    .photoBox, .photoBox-img{height: 80px;width: 80px;}
+    .infoBox{height: 80px;width: 200px;}
+    .tagsContainer{height: auto;}
+    .searBoxContainer{width: 380px;}
+}
+@media screen and (max-width:390px){
+    .reviewHeaders{font-size: 20px;line-height: 16px;}
+    .reviewParas{font-size: 14px;}
+    .reviewBox{width: 280px;height: 328px;}
+    .photoBox, .photoBox-img{height: 60px;width: 60px;}
+    .infoBox{height: 60px;width: 150px;}
+    .tagsContainer{height: auto;}
+    .profileContainer{height: 90px;}
+    .starPara{font-size: 30px;}
+    .followBtn{height: 30px;width: 70px;}
+    .searBoxContainer{width: 280px;}
+}

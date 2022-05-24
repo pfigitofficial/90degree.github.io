@@ -1,0 +1,174 @@
+main{height: auto;}
+
+.workArea{
+    height: auto;width: 1000px;
+    margin: auto;
+}
+
+
+.operationHeader{
+    height: 60px;width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.actBoxImg{
+    height: 50px;
+    margin-top: auto; margin-bottom: auto; margin-right: 520px;
+}
+.oprContainers{
+    height: 40px;width: 315px;
+    margin-top: auto;margin-bottom: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+}
+.card{
+    height: 40px;width: 40px;
+    display: flex;
+}
+.cardImg{
+    height: 40px;width: 40px;
+    margin: auto;
+}
+
+.storyContainer{
+    height: 150px;width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    overflow-x: scroll;
+}
+.storyContainer::-webkit-scrollbar {display: none;}
+.storyContainer {-ms-overflow-style: none;scrollbar-width: none;} 
+
+.storyBox{
+    height: 150px;width: 130px;
+    margin-left: 10px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+}
+.imgBox{
+    height: 130px;width: 131px;
+    display: flex;
+}
+.circleBoundry{
+    height: 127px;width: 127px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+}
+.newStory{background: linear-gradient(to bottom right, #2155CD, #79DAE8);}
+
+.circleBoundry02{
+    height: 117px;width: 117px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    overflow: hidden;
+}
+.circleBoundary{
+    height: 117px;width: 117px;
+    margin: auto;
+}
+
+
+.activityBoxFeed{
+    height: 1940px;width: auto;
+    overflow-y: scroll;
+}
+
+.postBox{
+    height: 750px;width: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid lightgray;
+    margin-bottom: 20px;
+}
+.senderBox{
+    height: 80px;width: auto;
+    display: flex;
+}
+.senderInfoDiv{
+    height: 70px;width: 300px;
+    margin-top: auto;margin-bottom: auto;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+}
+.senderImgContainer{
+    height: 70px;width: 70px;
+    margin-top: auto;margin-bottom: auto;margin-right: 10px;
+    border-radius: 50%;
+    display: flex;
+}
+.senderImg{
+    height: 66px;width: 66px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.imgDisplayer{
+    height: 500px;width: auto;
+    display: flex;
+}
+.imgDisplayerImage{
+    height: 500px;width: 1000px;
+    margin: auto;
+}
+.displayOprBox{
+    height: 50px;width: auto;
+    display: flex;
+}
+.oprBox{
+    height: 40px;width: 150px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.oprCard{
+    height: 40px;width: 40px;
+    display: flex;
+}
+.oprCardImage{
+    height: 40px;width: 50px;
+    margin: auto;
+}
+.descBox{
+    height: 120px;width: auto;
+}
+.descPara{
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.activityBoxFeed::-webkit-scrollbar {display: none;}
+.activityBoxFeed {-ms-overflow-style: none;scrollbar-width: none;} 
+
+
+@media screen and (max-width:1014px) {
+    .workArea{width: 640px;}
+    .actBoxImg{margin-right: 160px;}
+    .imgDisplayer{height: 360px;}
+    .imgDisplayerImage{height: 360px;}
+    .postBox{height: 610px;}
+}
+
+@media screen and (max-width:646px) {
+    .workArea{width: 640px;}
+    .actBoxImg{margin-right: 160px;}
+    .imgDisplayer{height: 360px;}
+    .imgDisplayerImage{height: 360px;}
+    .postBox{height: 610px;}
+}

@@ -1,0 +1,168 @@
+main{
+    height: auto;
+    background-image: url('/img/waveshortyellow.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.descriptorHeader, .descriptorPara{
+    font-family: 'Source Sans Pro';
+    margin: auto;
+    font-size: 30px;
+
+}
+.tab{
+    border-radius: 50px;
+    margin: auto;
+    margin-right: 10px;
+    margin-left: 0;
+    display: flex;
+    height: 50px;
+    width: auto;
+    box-shadow: 2px 2px 10px darkgray;
+}
+
+
+/* Container01 Css */
+#container01{
+    height: 400px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#infoContainer01{
+    height: auto;
+    width: auto;
+    display: flex;
+    margin: auto;
+    margin-left: 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+#descriptorHeader01{
+    font-size: 60px;
+    margin: auto;
+    margin-bottom: 0;
+    background: -webkit-linear-gradient(#EBD671, #FFB72B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#infoContainer01-image{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-right: 60px;
+    display: flex;
+}
+.infoContainerImage{
+    height: 130px;
+    width: 130px;
+    margin: auto;
+}
+#descriptorPara01{
+    margin: auto;
+    margin-top: 0;
+    font-size: 20px;
+}
+#tab01{
+    background-image: linear-gradient(to bottom right, #EBD671, #FFB72B);box-shadow: 0 0 10px #FFB72B;
+}
+
+
+/* Conatiner02 CSS */
+
+#container02{
+    height: 80px;
+    width: 1300px;
+    display: flex;
+    column-gap: 10px;
+    margin: auto;
+}
+
+#tab01{width: 100px;}
+#tab03, #tab02{width: 320px;}
+
+
+#container03{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+#descriptorHeader02{
+    margin: 10px auto 20px auto;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+.checkerDiv{
+    height: 70px;
+    width: 800px;
+    border-radius: 12px;
+    display: flex;
+    margin: 0 auto 20px auto;
+    box-shadow: 2px 2px 8px black;
+}
+.formButtons{
+    height: 60px;
+    width: 300px;
+    background-color: #FFB72B;
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    border-radius: 30px;
+}
+
+.chekerDiv-headers{
+    font-family: 'Source Sans Pro';
+    margin: auto 550px auto 10px;
+}
+.checkerDiv-MathHeaders{color: #FFB72B;}
+
+.checkers{
+    height: 40px;
+    width: 40px;
+    margin: auto 0 auto 0;
+}
+
+hr{opacity: 20%;width: 40%;margin: auto;margin-top: 20px;margin-bottom: 20px;}
+
+.custom-checkbox{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin: auto 0 auto 0;
+}
+
+.checkmark{
+    height: 100%;width: 100%;
+    border: 2px solid #222;
+    display: inline-block;
+}
+
+.checkers{
+    display: none;
+}
+
+.checkers:checked + .checkmark{
+    background-image: linear-gradient(to bottom right, #EBD671, #FFB72B);
+
+}
+
+@media screen and (max-width:821px) {
+    .checkerDiv{width: 440px;}
+    .chekerDiv-headers{margin: auto 200px auto 10px;}
+}
+
+@media screen and (max-width:467px) {
+    .checkerDiv{width: 270px;}
+    .chekerDiv-headers{margin: auto 90px auto 10px;font-size: 20px;}
+    .custom-checkbox{height: 30px;width: 30px;}
+}

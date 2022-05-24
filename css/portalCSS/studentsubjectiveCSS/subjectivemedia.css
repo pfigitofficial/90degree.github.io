@@ -1,0 +1,48 @@
+@media screen and (max-width:1315px) {
+    .journeyContainer{width: 880px;}
+    #container02{width: 880px;}
+    
+}
+
+@media screen and (max-width:900px) {
+    .journeyContainer{width: 600px;}
+    #infoContainer01-image{height: 150px;width: 150px;margin-right: 30px;}
+    #container02{width: 600px;}
+    .descriptorPara{font-size: 25px;}
+}
+
+@media screen and (max-width:672px) {
+    #container02{display: flex;overflow-x: scroll;  width: 600px;margin: auto;}
+    .tab{margin: auto;}
+    #tab01{min-width: 100px;}
+    #tab02{min-width: 310px;}
+    #tab03{min-width: 240px;}
+    
+}
+
+@media screen and (max-width:611px) {
+    #descriptorHeader01 {font-size: 45px;}
+    .journeyContainer {width: 300px;height: 200px;}
+    .journeyImage-container {height: 80px;width: 80px;}
+    .journeyLables{max-width:80px;}
+    .journeyTab{min-height: 140px;min-width: 140px;margin-right: 60px;}
+    .journeyLables {max-width: 140px;font-size: 15px;}
+    .journeyTab-container{height: 170px;}
+    .journeyHeader{font-size: 30px;}
+    #container02{width: 300px;}
+    #descriptorHeader01{font-size: 40px;}
+    #descriptorPara01{font-size: 20px;}
+    #infoContainer01-image{height: 100px;width: 100px;margin-right: 10px;}
+    #infoContainer01{margin-left: 10px;}
+    .tab{margin-left: 10px;}
+    .infoContainerImage{height: 100px;width: 100px;}
+}
+
+@media screen and (max-width:400px){
+    #container01{
+        background-image: url("/img/waveshort.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 270px;
+    }
+}

@@ -1,0 +1,322 @@
+main{
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.perform-Math{background-image: url('/img/waveshortblue.png');}
+
+
+
+.selectorContainer{
+    height: 100px; width: 500px;
+    margin: auto;
+    display: flex;
+}
+
+.navButtons{
+    height: 70px;
+    width: 220px;
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 20px;
+    color: black;
+    border: none;
+    font-size: 30px;
+    font-family: 'Source Sans Pro';
+}
+.active{
+    border-bottom: 5px solid black;
+    border-top: none;
+    border-left: none;border-right: none;
+    font-size: 25px;
+}
+.chartProgress{
+    height: auto;width: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.progressChartBox{
+    height: 350px;width: 350px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 10px grey;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.chartBox{
+    height: 280px;width: 280px;
+    margin: auto;
+}
+.chartBox-label{
+    font-size: 30px;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+}
+
+.chartProgress-bar{height: auto;width: auto;margin-top: 30px;margin-bottom: 80px;}
+
+.progressBarBox{
+    height: auto;
+    width: 720px;
+    margin: auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px grey;
+    overflow: hidden;
+}
+.progressBarBox-anchors{
+    color: black;
+    text-decoration: none;
+}
+
+.headerDiv{
+    height: 60px;width: 100%;
+    display: flex;
+}
+.headerDiv-headers{
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Source Sans Pro';
+}
+
+.infoContainer{
+    height: auto;width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chapterDiv{
+    display: flex;
+    height: 60px;
+}
+
+.topicContaniers{
+    height: 60px;width: 300px;
+    display: flex;
+}
+.BarContainer{
+    height: 60px;width: 320px;
+    display: flex;
+}
+
+.percentContainer{
+    height: 60px;width: 100px;
+    display: flex;
+}
+
+.info-para{
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    margin: auto 0 auto 10px;
+}
+
+.progressBar{
+    height: 35px; width: 300px;
+    background-color: palevioletred;
+    margin: auto;
+}
+.progressDone{
+    background-color: #bbb;
+    height: 35px;width: 70%;
+}
+
+.chapterBox{
+    background-color: white;
+    height: 200px;width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px grey;
+    border-radius: 12px;
+    display: flex;
+}
+.chapterDetails{
+    height: 100px;width: 280px;
+    margin: 50px 0 0 10px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+}
+.graphDetails{
+    height: 180px;width: 180px;
+    margin: auto;
+}
+.marksDetails{
+    height: 200px;width: 200px;
+    position: absolute;
+    margin: 0 0 0 590px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.descLabel{
+    height: auto;width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+}
+.markBox{
+    height: auto;width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.markLabel{
+    height: auto;width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    color: purple;
+}
+.chapterHeader{
+    font-family: 'Source Sans Pro';
+    font-size: 40px;
+    color: purple;
+}
+.chapter-Para{
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+}
+hr{width: 20px;}
+
+
+.dropDownListDiv{
+    height: 100px;width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropDown{
+    height: 60px; width: 200px;
+    background-color: navy;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+}
+.dropDownResults{
+    height: auto;width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.resultDiv{
+    height: 100px;width: 830px;
+    background-color: white;
+    border-radius: 12px;
+    margin: 0 auto 10px auto;
+    display: grid;
+    box-shadow: 2px 2px 10px grey;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultElements{
+    height: 80px;width: 198px;
+    border: 1px solid lightblue;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resultElement-para{
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+}
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width:838px){
+    .dropDown{width: 100px;height: 50px;border-radius: 7px;font-size: 12px;}
+    .resultElements{width: 98px;height: 50px;border-radius: 7px;}
+    .resultElement-para{font-size: 15px;}
+    .resultDiv{height: 60px;width: 423px;}
+}
+
+@media screen and (max-width:816px) {
+    .marksDetails, .graphDetails{height: 110px;width: 110px;}
+    .chapterDetails{height: auto;width: auto;margin: 16px 0 0 10px;}
+    .markDetails{margin: 45px 0 0 470px;}
+    .chapterBox{width: 700px;height: 110px;}
+}
+
+@media screen and (max-width:732px) {
+    .chartBox{height: 200px;width: 200px;}
+    .progressChartBox{width: 210px;height: 250px;}
+    .progressBarBox{width: 440px;}
+    .progressBar{width: 180px;height: 25px;}
+    .progressDone{height: 25px;}
+}
+
+@media screen and (max-width:716px) {
+    .marksDetails{margin: 0 0 0 239px;}
+    .chapterDetails{height: auto;width: 107px;margin: 28px 0 0 10px;}
+    .chapterHeader{font-size: 20px;}
+    .chapter-Para{font-size: 15px;}
+    .markDetails{margin: 45px 0 0 470px;}
+    .chapterBox{width: 349px;height: 110px;}
+}
+
+
+@media screen and (max-width:512px) {
+    .chartBox{height: 120px;width: 120px;}
+    .progressChartBox{width: 130px;height: 155px;}
+    .progressBarBox{width: 280px;}
+    .progressBar{width: 110px;height: 15px;}
+    .progressDone{height: 15px;}
+    .navButtons{height: 50px;width: 150px;}
+    .BarContainer{width: auto;}
+    .selectorContainer{
+        display:grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+        width: auto;
+    }
+    .navButtons{margin: 0;font-size: 15px;width: 120px;}
+    .chartBox-label{font-size: 20px;}
+    .headerDiv-headers{font-size: 20px;}
+    .info-para{font-size: 15px;}
+    .topicContaniers, .BarContainer, .percentContainer{height: 40px;}
+    .chartProgress{column-gap: 10px;}
+}
+
+@media screen and (max-width:432px){
+    .dropDown{width: 57px;}
+    .resultElements{width: 50px;height: 40px;}
+    .resultElement-para{font-size: 10px; text-align: center;}
+    .resultDiv{width: 233px;}
+}
+
+@media screen and (max-width:362px) {
+    .graphDetails{height: 80px;width: 80px;}
+    .marksDetails{margin: 0 0 0 199px;width: 80px;height: 80px;}
+    .chapterDetails{height: auto;width: 97px;margin: 14px 0 0 2px;;}
+    .chapterHeader{font-size: 15px;}
+    .chapter-Para{font-size: 13px;}
+    .markDetails{margin: 45px 0 0 470px;}
+    .chapterBox{width: 279px;height: 80px;}
+    .descLabel{font-size: 10px;}
+    .markLabel{font-size: 10px;}
+    hr{width: 9px;}
+}

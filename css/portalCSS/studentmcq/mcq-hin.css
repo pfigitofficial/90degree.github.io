@@ -1,0 +1,37 @@
+main{
+    background-image: url('/img/waveshortred.png');
+}
+
+#descriptorHeader01{
+    color: #B20600;
+}
+.active{
+    background-image: linear-gradient(to bottom right, #B20600, #F24A72);box-shadow: 0 0 10px #B20600;
+}
+.submitBtn{
+    background-color: #B20600;
+}
+
+.custom-radioBtn{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #B20600;
+    border-radius: 50px;
+    margin: auto 0 auto 0;
+    background-color: transparent;
+}
+.checkMark{
+    height: 24px;width: 24px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, #B20600, #F24A72);
+    border-image-slice: 1;
+    display: none;
+}
+.inputCheckers{display: none;}
+
+.inputCheckers:checked + .checkMark{
+    display: inline-block;
+}

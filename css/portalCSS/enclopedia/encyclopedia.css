@@ -1,0 +1,204 @@
+main{height: auto;}
+
+.searchContainer{
+    height: 150px;width: auto;
+    display: flex;
+    margin: auto;
+
+}
+
+form{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 350px;
+    margin: auto;
+}
+
+.inputFields{
+    height: 60px;width: 400px;
+    outline: none;border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px lightgray;
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    padding-left: 10px;
+}
+.filterDrop{width: 100px;background-color: lightgrey;}
+.container01{
+    height: auto;width: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.subjectBox{
+    height: 60px;width: 200px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px gray;
+    font-family: 'Source Sans Pro';
+    font-size: 25px;
+    background-color: white;
+}
+ 
+.container02{
+    height: auto;width: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.classBox{
+    height: 210px;width: 860px;
+    background-image: linear-gradient(to  right, #195073, #46acc4);
+    margin: 0 auto 20px auto;
+    border-radius: 12px;
+    display: flex;
+}
+.iconBox{
+    height: 150px;width: 150px;
+    margin: auto 0 auto 30px;
+    display: flex;
+}
+.iconImg{height: 100px;width: 100px;margin: auto;}
+.nameBox{
+    height: 150px;width: 300px;
+    display: flex;
+    margin: auto 0 auto 0;
+    align-items: center;
+}
+
+.nameBox-headers{
+    font-size: 30px;font-family: 'Source Sans Pro';
+    line-height: 23px;
+    color: white;
+}
+.className-headers{color: #e5f24e;}
+.encyclo2-Headers{color: black;}
+.starBox{
+    height: 150px;width: 350px;
+    margin: auto 0 auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.reviewBox{
+    height: auto;width:auto;
+    margin: 10px 0 0 0;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: gold;
+}
+
+.container03{
+    height:auto;width:auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    column-gap: 10px;
+}
+.buttons{
+    height: 60px;width: auto;
+    background-color: aliceblue;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Source Sans Pro';
+    padding-left: 8px;padding-right: 8px;
+}
+.buttons:hover{border-bottom: 3px solid #195073;color: #195073;}
+.encylo2Btns{width: 266px;background-color: #195073;box-shadow: 2px 2px 10px #195073;color: white;}
+
+.encylo2Btns:hover{color: white;border-bottom: 3px solid white;}
+
+.container04{
+    height: auto;width: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.resultDiv{
+    height: 100px;width: 630px;
+    background-color: white;
+    border-radius: 12px;
+    margin: 0 auto 10px auto;
+    display: grid;
+    box-shadow: 2px 2px 10px grey;
+    grid-template-columns: auto auto auto;
+    column-gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.resultElements{
+    height: 80px;width: 198px;
+    border: 1px solid lightblue;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resultElement-para{
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+}
+
+
+.classBox-anchors{
+    text-decoration: none;
+}
+
+hr{opacity: 30%;width: 40%;margin: 20px auto 20px auto;}
+
+@media screen and (max-width:868px){
+    .subjectBox{height: 40px;width: 120px;}
+    .container01{column-gap: 10px;row-gap: 10px;}
+    .starBox{width: 140px;height: 90px;}
+    .nameBox {width: 160px;height: 90px;}
+    .iconImg{height: 60px;width: 60px;}
+    .iconBox{height: 90px;width: 90px;}
+    .classBox{width: 450px;height: 150px;}
+    .resultElements{height: 60px;width: 128px;text-align:center;}
+    .resultDiv{height: 70px;width: 410px;}
+    .resultElement-para{font-size: 10px;}
+    .encylo2Btns{width: auto;}
+    
+    form{column-gap: 250px;}
+    .inputFields{height: 40px;}
+    .textFields{width: 150px;}
+    .searchContainer{height: 90px;}
+}
+
+@media screen and (max-width:528px){
+    .subjectBox{height: 30px;width: 70px;font-size: 15px;border-radius: 6px;}
+    .container01{column-gap: 5px;row-gap: 5px;}
+    .nameBox-headers{font-size: 15px;}
+    .iconBox{margin: auto 0 auto 10px;height: 60px;width: 60px;}
+    .iconImg{height: 40px;width: 40px;}
+    .classBox{width: 410px;height: 110px;}
+    .nameBox{width: 100px;height: 60px;}
+    .starBox{height: 60px;width: 110px;}
+    .classBox{width: 290px;height: 80px;margin-bottom: 5px;}
+    .resultElements{height: 60px;width: 78px;text-align:center;}
+    .resultDiv{height: 70px;width: 260px;}
+    .buttons{font-size: 15px;height: 30px;}
+
+    form{column-gap: 85px;}
+    .inputFields{height: 30px;border-radius: 8px;}
+    .textFields{width: 100px;}
+    .searchContainer{height: 80px;}
+}

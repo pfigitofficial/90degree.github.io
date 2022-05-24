@@ -1,0 +1,438 @@
+main {
+    height: auto;
+    display: flex;
+    background-size: cover;
+}
+
+
+.workArea {
+    height: auto;
+    width: 1440px;
+    display: flex;
+    margin: auto;
+}
+
+.superLeftDiv {
+    height: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.chptrNamenDuration {
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Source Sans Pro';
+    font-size: 40px;
+    margin-left: 0;
+}
+
+.timerBox {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 589px;
+}
+
+.timerPara {
+    font-family: 'Source Sans Pro';
+    font-size: 30px;
+}
+
+
+/* Tabs CSS */
+
+.tab {
+    width: 1000px;
+    overflow-x: scroll;
+    display: flex;
+    background-color: #f1f1f1;
+
+}
+
+.tab button {
+    width: auto;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    text-align: left;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    height: 750px;
+}
+
+.close{display: none;}
+
+/* ENd CSS */
+
+
+.utilityBoxes {
+    height: 150px;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.utilityBox {
+    height: 140px;
+    width: 196px;
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro';
+    box-shadow: 2px 2px 10px gray;
+}
+
+.utlilityImage {
+    height: 110px;
+    width: 110px;
+}
+
+.contentBox {
+    height: 750px;
+    width: auto;
+    overflow-y: scroll;
+}
+
+
+/* Modal CSS */
+
+.modal{
+    height: 100%;width: 100%;
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.8);
+}
+.modalContent{
+    height: 500px; width: 590px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.topicHeading{
+    font-family: 'Source Sans Pro';
+    font-size: 30px;
+}
+.paraImgSection{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.contentPara-fullsize{
+    width: 960px;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contentBox-fullMedia{
+    height: 400px;width: 1000px;
+    background-color: black;
+}
+
+.contentBox-rightMedia{
+    height: 180px;width: 330px;
+    background-color: black;
+}
+
+.contentPara-beforeMedia{
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    padding-left: 20px;
+    width: 630px;
+}
+
+/* chatbox CSS */
+
+.chatBoxHeader{
+    height: 70px; width: auto;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom right, #035397, #143F6B);
+}
+
+.chatBoxFooter{
+    height: 70px; width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #035397, #143F6B);
+}
+
+
+
+.chatBoxMain{
+    height: 360px;width: auto;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+.msgBox-me{
+    height: auto;width: auto;
+    display: flex;
+    justify-content: right;
+    margin-top: 15px;
+}
+
+.chatTime{
+    font-family: 'Source Sans Pro';
+    font-size: 10px;
+    color: black;
+}
+
+.msgBox-them{
+    height: auto;width: auto;
+    display: flex;
+    justify-content: left;
+    margin-top: 15px;
+
+}
+.meMsg{
+    height: auto;width: auto;
+    max-width: 270px;
+    background: linear-gradient(to bottom right, #035397, #143F6B);
+    margin: auto 10px auto 0;
+    padding: 15px 10px 15px 10px;
+    border-radius: 25px 25px 0 25px;
+    display: flex;
+    font-family: 'Source Sans Pro';
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 10px gray;
+}
+.themMsg{
+    height: auto;width: auto;
+    max-width: 270px;
+    margin: auto 0 auto 10px;
+    background-color: #ccc;
+    padding: 15px 10px 15px 10px;
+    border-radius: 25px 25px 25px 0;
+    display: flex;
+    font-family: 'Source Sans Pro';
+    color: black;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px black;
+}
+
+.profilePic{
+    height: 60px;width: 60px;
+    overflow: hidden;
+    background-color: #143F6B;
+    margin: auto 0 auto 10px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.chatProfileDP{height: 60px;width: 60px;}
+
+#teacherDPName{
+    font-size: 30px;
+    font-family: 'Source Sans Pro';
+    color: white;
+    margin-left: 15px;
+    margin-right: 230px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 5px;
+
+}
+
+.chatInput{
+    height: 50px;width: 250px;
+    border-radius: 12px;
+    outline: none;border: none;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+}
+.chatButton{
+    height: 50px;width: 50px;
+    border-radius: 12px;
+    outline: none;border: none;
+
+}
+
+.contactBtnDiv{
+    height: 50px;width: 110px;
+    background-color: #ccc;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactCrd{
+    height: 48px;width: 48px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+
+}
+.contactCrdImages{
+    height: 40px;width: 40px;
+    margin: auto;
+}
+
+
+.searchBox{
+    height: 100px;width: auto;
+    background: linear-gradient(to bottom right, #035397, #143F6B);
+    display: flex;
+}
+.searchForms{display: flex;margin: auto;}
+
+.searchInputs{
+    height: 50px;width: 500px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+}
+.searchButtons{
+    height: 50px;width: 50px;
+    border-radius: 12px;
+    border-color: transparent;
+    margin-left: 10px;
+    background: url('/img/search.png');
+    background-size: contain;
+    background-color: #ccc;
+}
+.searchResultBox{
+    height: 400px;width: auto;
+    background-color: #ccc;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.resBox{
+    min-height: 140px;min-width: 230px;
+    border-radius: 10px;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resBoxImage{min-height: 140px; min-width: 230px;}
+
+.toolContainer{
+    height: 500px; width: 590px;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.toolCard{
+    height: 200px;width: 200px;
+    /* background-color: lightblue; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    box-shadow: 2px 2px 10px grey;
+}
+.toolImage{
+    height: 160px;width: 160px;
+    border-radius: 10px;
+}
+
+custom{color: lightslategray;}
+custom:hover{text-decoration: underline;}
+
+
+
+
+@media screen and (max-width:1004px) {
+    .superLeftDiv{width: 530px;}
+    .utilityBox{height: 90px;width: 100px;}
+    .utlilityImage {height: 60px;width: 60px;}
+    .utilityBoxes{height: 110px;}
+    .timerBox{margin-left: 280px;}
+    h1{padding-left: 10px;}
+    .contentPara-fullsize{padding-left: 10px;width: 510px;}
+    .contentBox-fullMedia{margin-left: 10px;width: 510px;height: 250px;}
+    .modalContent{width: 460px;}
+    #teacherDPName{margin-right: 100px;}
+}
+
+@media screen and (max-width:536px){
+    .superLeftDiv{width: 300px;}
+    .utlilityImage{height: 30px;width: 30px;}
+    .utilityBoxes{height: auto;grid-template-columns: auto auto auto;row-gap: 5px;}
+    .utilityBox{height: 60px;width: 70px;font-size: 10px;}
+    .contentPara-fullsize{width: 280px;font-size: 15px;}
+    .contentBox-fullMedia{width: 280px;height: 170px;}
+    .topicHeading{font-size: 25px;}
+    .modalContent{width: 300px;}
+    #teacherDPName{font-size: 20px;margin-right: 34px;margin-left: 8px;}
+    .contactCrd{height: 28px;width: 28px;}
+    .contactCrdImages{height: 20px;width: 20px;}
+    .contactBtnDiv{height: auto;width: auto;}
+    .profilePic{height: 40px;width: 40px;}
+    .chatInput {height: 40px;width: 160px; font-size: 15px;}
+    .chatButton{height: 40px;}
+    .themMsg, .meMsg{font-size: 13px;padding: 5px 10px 5px 5px;}
+    .timerBox{margin-left: 70px;}
+    .searchInputs{width: 210px;}
+    .resBox {min-height: 90px;min-width: 60px;}
+    .resBoxImage{min-width: 140px;min-height: 90px;}
+    .searchResultBox{column-gap: 5px;row-gap: 5px;}
+}
+
+@media screen and (max-width:1045px) {
+    main{background-size: contain;background-repeat: no-repeat;}
+}

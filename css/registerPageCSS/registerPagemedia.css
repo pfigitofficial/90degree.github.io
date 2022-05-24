@@ -1,0 +1,7 @@
+@media screen and (max-width: 458px){
+    .inputFields,.inputButtons{width: 300px;}
+    .imgHolder{height: 200px;width: 200px;}
+    .card{height: auto; width: 120px;}
+    .selections-container{grid-template-columns: auto auto;row-gap: 10px;}
+    .descriptor-label01{margin-top: 0;}
+}
